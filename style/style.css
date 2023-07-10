@@ -197,3 +197,38 @@
     font-size: 19px;
     font-weight: bold;
 }
+.margin-top-area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: red;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+.numbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-right: 1px solid gray;
+}
+.numbar img {
+    width: 100px;
+}
+.numbar h3 {
+    color: white;
+    margin-right: 25px;
+}
+.numbar-pra p {
+    color: white;
+}
+.numbar-btn button {
+    padding: 15px 33px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 17px;
+}
